@@ -35,6 +35,18 @@
     text-align: center;
 }
 
+.cell{
+    background-color: #0c0480;
+    color: aliceblue;
+    height: 200px;
+}
+
+.cell1{
+    background-color: #0c0480;
+    color: aliceblue;
+    height: 200px;
+}
+
 .footer{
     background-color: #7311f2;
     color: aqua;
