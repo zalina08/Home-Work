@@ -13,10 +13,12 @@
         <p><button type="submit" name="Enter">Войти</button></p>
         </form>
      <?php 
+     if (isset ($_POST['Enter'])){
         if (!empty($_POST["name"])) {
             echo "Привет, ".$_POST["name"];
-    } else {  
+        } else {  
             echo "Введите имя!";
+        }
     }
     ?>
 
