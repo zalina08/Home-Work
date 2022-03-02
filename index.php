@@ -12,5 +12,6 @@
     <a href="bootstrap/practiceBootstrap2_3.php">Практическая работа №3</a> <br>
     <a href="bootstrap/practiceBootstrap2_4.php">Практическая работа №4</a> <br>
     <a href="bootstrap/independentBootstrap2_1.php">Самостоятельная работа №1</a> <br>
+    <a href="bootstrap/independentBootstrap2_2.php">Самостоятельная работа №2</a> <br>
 </body>
 </html>
