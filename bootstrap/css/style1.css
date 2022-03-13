@@ -26,7 +26,6 @@ padding-bottom:20px;
   
 .row1{
     background-color:#FFB871; 
-    
     padding-bottom: 15px;
 }
 
@@ -38,4 +37,28 @@ padding-bottom:20px;
 .row3{
     background-color:#FFB871;  
     padding-bottom: 15px;
+}
+
+.description{
+    background-color: white;
+}
+
+.class1{
+    background-color: lightblue;
+}
+
+.class2{
+    background-color: aliceblue;
+}
+
+.class3{
+    background-color: lightcoral;
+}
+
+.class4{
+    background-color: lightyellow;
+}
+
+.class5{
+    background-color: lightgreen;
 }
