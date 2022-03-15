@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 16</title>
+    <script src="http://code.jquery.com/jquery.js"></script>
+        <ul>
+            <li>
+                <a href="http://jquery.com">jQuery</a>
+        <ul>
+            <li><a href="http://blog.jquery.com">jQuery Blog</a></li>
+        </ul>
+        </li>
+            <li><a href="http://sizzlejs.com">Sizzle</a></li>
+        </ul>
+    <script>
+         var links = $('a', 'li');
+         for (var i = 0; i < links.length; i++) {
+         alert(i + ": " + links[i].href); // 3 ссылки по очереди
+         }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
