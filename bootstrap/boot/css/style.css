@@ -1,0 +1,54 @@
+.header{
+    background-color: #7311f2;
+    color: aqua;
+    text-align: center;
+}
+
+.header1{
+    background-color: #3a078c;
+    color: orangered;
+    text-align: center;
+}
+
+.header2{
+    background-color: #3a078c;
+    color: orangered;
+    text-align: center;
+}
+
+.photo{
+    background-color: #f3a2fa;
+    color: #2c0855;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+.content{
+    background-color: brown;
+}
+
+.tovar{
+    background-color: aqua;
+    color: #0c0480;
+    text-align: center;
+}
+
+.cell{
+    background-color: #0c0480;
+    color: aliceblue;
+    height: 200px;
+}
+
+.cell1{
+    background-color: #0c0480;
+    color: aliceblue;
+    height: 200px;
+}
+
+.footer{
+    background-color: #7311f2;
+    color: aqua;
+    text-align: center;   
+}
