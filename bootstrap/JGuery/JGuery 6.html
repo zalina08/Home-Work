@@ -5,18 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Задание 6</title>
+    <link rel="stylesheet" href="css/bootstrap4.css">
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script>
-        $(document).ready(function () {
+        $(document).ready(function () { 
         $("p").dblclick(function () {
         $(this).hide();
-        });
+        } );
         });
        </script>
 </head>
-<body>
-    <p>If you double-click on me, I will disappear.</p>
-    <p>Click me away!</p>
-    <p>Click me too!</p>
+<body style="background-color: darkgray;">
+    <p class="p-3 mb-2 bg-light text-dark">Если вы дважды нажмете на меня, я исчезну)</p>
+    <p class="p-3 mb-2 bg-primary text-white">Нажмите меня тоже!</p>
+    <p class="p-3 mb-2 bg-danger text-white">Кликни меня!</p>
 </body>
 </html>

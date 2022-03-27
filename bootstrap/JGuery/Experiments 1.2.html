@@ -4,27 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Самостоятельная работа 1</title>
+    <title>Самостоятельная работа 2</title>
+    <link rel="stylesheet" href="css/bootstrap4.css">
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script>
     $(document).ready(function ()
      {
        $("#butt1").click(function () 
          {
-           $(".MsoNormal:odd").hide();
+           $("tr:even").hide();
          });
        $("#butt2").click(function ()
          {
-           $(".MsoNormal:odd").show();
+           $("tr:even").show();
          });
      });
     </script>
 </head>
 <body>
+  <div class="bg-success p-2" style="--bs-bg-opacity: .5;">
     <button id="butt1">Скрой меня</button>
     <button id="butt2">Открой меня</button>
-    <p class="MsoNormal">1</p>
-    <p class="MsoNormal">2</p>
-    <p class="MsoNormal">3</p>
+    <table border="1">
+ <tr>
+    <th>1</th>
+    <th>2</th>
+    <th>3</th>
+    <th>4</th>
+  </tr>
+</div>
 </body>
 </html>

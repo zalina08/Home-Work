@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Самостоятельная работа 2</title>
+    <link rel="stylesheet" href="css/bootstrap4.css">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script>
+        $(document).ready(function () {
+        $("p[align|='center']").dblclick(function () {
+        $("p").hide(500);
+        });
+        $("#but1").dblclick(function () {
+        $("p").show(500);
+        });
+        });
+        </script>
+</head>
+<body>
+    <div class="p-3 mb-2 bg-warning text-dark">
+    <button id="but1">Нажми 2 раза и она вернется</button>
+    <p align="center">Нажми два раза и исчезнет</p>
+</div>
+</body>
+</html>

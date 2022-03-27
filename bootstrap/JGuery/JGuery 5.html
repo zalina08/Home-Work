@@ -5,18 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Задание 5</title>
+    <link rel="stylesheet" href="css/bootstrap4.css">
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script>
-     $(document).ready(function () {
+$(document).contextmenu(function() {
+    return false;
+});
+$(document).ready(function () {
+    $("p").contextmenu(function () {
+    alert("Ты все испортил!");
+    $(this).hide();
+});
      $("p").click(function () {
-        $(this).hide();
+        alert("ТЫ ЧТО-ТО ПОПУТАЛ!");
+        return false; // прекращает выполнение скрипта, возвращает ложь
+        //
         });
     });
 </script>
 </head>
-<body>
-    <p>If you click on me, I will disappear.</p>
-    <p>Click me away!</p>
-    <p>Click me too!</p>
-    </body>
+<body style="background-color: darkgray;">
+    <div class="container">
+    <p class="p-3 mb-2 bg-light text-dark">Если вы нажмете на меня, я исчезну.</p>
+    <p class="p-3 mb-2 bg-primary text-white">Нажмите меня тоже!</p>
+    <p class="p-3 mb-2 bg-danger text-white">Кликни меня!</p>
+    </div>
+</body>
 </html>
